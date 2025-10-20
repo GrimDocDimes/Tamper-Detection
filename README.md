@@ -1,7 +1,17 @@
-# Regulator Dashboard
+### 🔒 Project Overview
+Weighing and measuring instruments are essential for ensuring fairness, accuracy, and transparency in trade and commerce. However, these systems are prone to tampering — including unauthorized hardware modifications, firmware alterations, or hidden control mechanisms — which lead to fraudulent practices and consumer losses.
 
-A comprehensive admin dashboard for device monitoring and tamper detection using React, Tailwind CSS, and interactive charts.
+This project presents an **IoT-based Tamper Detection and Prevention System** using the **ESP32 microcontroller** to ensure integrity and security in weighing scales and similar measuring devices. The solution offers **real-time tamper monitoring, alert generation, blockchain-based logging**, and **RFID-based officer authentication** for authorized access.
 
+---
+
+### 🧠 Abstract
+The system continuously monitors for physical and digital tampering attempts, including enclosure openings, calibration drift, and unauthorized firmware changes. Upon detecting anomalies, the ESP32 sends **instant alerts** with details such as device ID, type of tamper, time, and location to a **centralized web dashboard**.  
+Each event is **immutably recorded on a blockchain** for transparency, while **offline data logging** ensures data retention during network outages. Authorized officers can access the device using **RFID authentication**, and alerts are automatically assigned to them via a **mobile notification system**.  
+
+This solution enhances trust, simplifies regulatory monitoring, and contributes to the development of tamper-proof digital metrology systems.
+
+---
 ## Features
 
 ### 1. Overview / Home Screen
